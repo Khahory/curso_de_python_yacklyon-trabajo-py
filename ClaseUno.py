@@ -1,17 +1,5 @@
-#convertir a String
-print (str('hola'))
-print (str(120))
 
-# Convertir a int
-print (int(10))
-print (int("21"))
-
-# Convertir a float
-print (float(30))
-print (float(22.22))
-
-
-
-
-
-
+#Suma con entradas por teclado
+a = int(input("Digita el valor a \n"))
+b = int(input("Digita el valor b \n"))
+print (a+b)
