@@ -37,3 +37,10 @@ notas1.update(notas2) #Remplaza o agregas valores a la lista1 (La actualiza), lo
 print(notas1)
 
 print("\033[;36m"+"-------------------------------------"+'\033[0;m')
+
+edades = {"Angel":20, "Jason":18, "Aura":12, "Maria":40}
+vector = edades.pop("Maria")
+print(vector)
+print(edades) #Elimina el elemento, POP
+
+print("\033[;36m"+"-------------------------------------"+'\033[0;m')
