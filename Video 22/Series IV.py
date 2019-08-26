@@ -22,7 +22,7 @@ elif limite == 1:
     print(A)
 else:
     while interructor < limite:
-        print(A)
+        print(A, end=", ")
         C = A + B
         #Actualizar datos
         interructor += 1
