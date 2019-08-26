@@ -1,16 +1,16 @@
 #serie a,b,a,b,a,b....
 
 limite = int(input("Digite las veces que se repetira: "))
-interructor = 2
+interructor = True
 controlador = 0
 letra = ""
 
 while controlador < limite:
     controlador = controlador + 1
-    if interructor > 1:
+    if interructor:
         letra = "A"
-        interructor = interructor - 1
+        interructor = False
     else:
         letra = "B"
-        interructor = 2
+        interructor = True
     print(letra, end=", ")
