@@ -11,9 +11,8 @@
 
 #Valores
 A = 1
-B = 2
+B = 1
 C = 0
-controlador = 0
 limite = int(input("Digite el limite de veces: "))
 interructor = 0
 
@@ -24,4 +23,8 @@ elif limite == 1:
 else:
     while interructor < limite:
         print(A)
+        C = A + B
+        #Actualizar datos
         interructor += 1
+        A = B
+        B = C
