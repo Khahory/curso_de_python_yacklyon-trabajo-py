@@ -1,4 +1,5 @@
 #Conjuntos
 
-a = {3,1,5,2,5, "b", "g", "z", "a"} #No siempre estan ordenados
+a = {3,3,1,5,2,5, "b", "g", "z", "a"} #No siempre estan ordenados
+# Los valores iguales no se repiten
 print(a)
