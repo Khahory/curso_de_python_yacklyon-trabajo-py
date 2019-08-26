@@ -33,7 +33,7 @@ print("\033[;36m"+"-------------------------------------"+'\033[0;m')
 
 notas1 = {"a":1, "b":2, "c":343}
 notas2 = {"c":10, "d":5, "e":6}
-notas1.update(notas2)
+notas1.update(notas2) #Remplaza o agregas valores a la lista1 (La actualiza), los valores repetidos los remplaza con la segunda lista
 print(notas1)
 
 print("\033[;36m"+"-------------------------------------"+'\033[0;m')
