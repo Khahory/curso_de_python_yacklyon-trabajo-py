@@ -1,4 +1,4 @@
 from Pares import Pares
 
-a = Pares(4)
+a = Pares(10)
 print(a)
