@@ -7,6 +7,8 @@ if n2 < n1:
 else:
     for i in range(n1, n2+1):
         if i % 2 == 0:
+            continue #Salta a la siguente instruccion que es donde esta el else
             print(f"El numero {i} es par")
         else:
+            break #Rompe el ciclo o salir del bucle
             print(f"El numero {i} es impar")
